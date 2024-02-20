@@ -1,0 +1,51 @@
+.search-container{
+    position: relative;
+    left:10%;
+    margin:50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-container input{
+
+    width: 80%;
+    height: 25px;
+    border: 1px solid;
+}
+
+.search-container button{
+    height: 29px;
+    border: 1px solid;
+}
+
+.car-card-item img{
+    width: inherit;
+    box-shadow: 0px 0px 3px;
+    
+}
+
+.car-card-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    position: relative;
+    left: 200px;
+}
+
+.car-card-item{
+    box-shadow: 0px 0px 5px;
+    width: 300px;
+    margin: 10px;
+}
+
+.car-card-item h3{
+    margin: 5px;
+}
+
+.car-card-item p{
+    display: block;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    margin: 10px;
+}
