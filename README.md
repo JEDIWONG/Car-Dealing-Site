@@ -1,0 +1,3 @@
+Front-End Project about retail site using REACT 
+
+Basically still practicing how REACT works ... 
