@@ -119,6 +119,6 @@ h2::after{
     
 }
 
-
-
-
+button:hover{
+    cursor: pointer;
+}
