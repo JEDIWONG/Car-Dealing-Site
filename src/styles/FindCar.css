@@ -15,7 +15,15 @@
 
 .search-container button{
     height: 29px;
-    border: 1px solid;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(216, 185, 7);
+    font-weight: bold;
+}
+
+.search-container button:hover{
+    background-color: rgb(185, 189, 189);
+    color: aliceblue;
 }
 
 .car-card-item img{
@@ -46,6 +54,10 @@
 .car-card-item p{
     display: block;
     font-weight: bold;
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin: 10px;
+}
+
+.car-card-item:hover{
+    cursor: pointer;
 }

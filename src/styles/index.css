@@ -28,6 +28,11 @@ a{
     
 }
 
+.header-logo:hover{
+    
+    cursor: pointer;
+}
+
 .footer-container{
 
     background-color: rgb(31, 32, 32);
@@ -113,5 +118,7 @@ h2::after{
     color: gold;
     
 }
+
+
 
 

@@ -4,7 +4,7 @@ function Home(){
 
     const navToBrowse=()=>{
         
-        window.location.href = "/FindCar";
+        window.location.href = "/Car-Dealing-Site/FindCar";
 
     }
 
