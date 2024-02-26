@@ -1,13 +1,8 @@
+import { Link } from "react-router-dom";
 import "../styles/Home.css"
 
 function Home(){
-
-    const navToBrowse=()=>{
-        
-        window.location.href = "/Car-Dealing-Site/FindCar";
-
-    }
-
+    
     return(
         <div>
             <div className="home-container">
@@ -71,7 +66,10 @@ function Home(){
                         </h2>
 
                         <p>We have the best deal for our valued customer</p>
-                        <button onClick={navToBrowse}>Take me there </button>
+
+                        <Link className="nav-findcar" to={"/Car-Dealing-Site/FindCar"}>
+                            <button>Take me there</button>
+                        </Link>
                     </div>
 
                 </div>

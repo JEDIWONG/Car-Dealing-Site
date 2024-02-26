@@ -6,6 +6,7 @@ import NoPage from "./components/Nopage";
 import FindCar from "./components/FindCar";
 import Login from "./components/Login";
 import Services from "./components/Services";
+import About from "./components/About";
 import './styles/index.css';
 
 
@@ -20,6 +21,7 @@ function App(){
           <Route path="contact" element={<Contact/>}/>
           <Route path="service" element={<Services/>}/>
           <Route path="login" element={<Login/>}/>
+          <Route path="about" element={<About/>}/>
           <Route path="*" element={<NoPage/>}/>
         </Route>
       </Routes>
