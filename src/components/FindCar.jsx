@@ -23,8 +23,7 @@ function FindCar(){
                         <CarCard img={product.imgUrl} name= {product.name} year={product.year} price={product.price} isStock={product.stock}></CarCard>
                     </Link>
                 ))}
-
-            
+                       
             </div>
 
         </div>

@@ -23,7 +23,7 @@ export const PRODUCTS=[
         year : 1999,
         price : 20000,
         stock : true,
-        imgUrl : "https://www.mycarpaint.net/wp-content/uploads/proton-hatchback-gen2.jpg"
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/First_generation_Proton_Saga%2C_Kuala_Lumpur.jpg/1280px-First_generation_Proton_Saga%2C_Kuala_Lumpur.jpg"
     },
     {
         id: "4",
@@ -31,8 +31,25 @@ export const PRODUCTS=[
         year : 2002,
         price : 12000,
         stock : true,
-        imgUrl : "https://www.mycarpaint.net/wp-content/uploads/proton-hatchback-gen2.jpg"
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
+    },
+    {
+        id: "5",
+        name : "Myvi",
+        year : 2002,
+        price : 12000,
+        stock : true,
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
+    },
+    {
+        id: "6",
+        name : "Myvi",
+        year : 2002,
+        price : 12000,
+        stock : true,
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
     }
+
 
 ]
 
