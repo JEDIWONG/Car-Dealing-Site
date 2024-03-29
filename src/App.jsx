@@ -7,6 +7,7 @@ import FindCar from "./components/FindCar";
 import Login from "./components/Login";
 import Services from "./components/Services";
 import About from "./components/About";
+import Faq from "./components/Faq";
 import './styles/index.css';
 import UseProducts from "./components/UseProduct";
 
@@ -23,6 +24,7 @@ function App(){
           <Route path="service" element={<Services/>}/>
           <Route path="login" element={<Login/>}/>
           <Route path="about" element={<About/>}/>
+          <Route path="faq" element={<Faq/>}></Route>
           <Route path="FindCar/car/:id" element={<UseProducts/>}/>
           <Route path="*" element={<NoPage/>}/>
         </Route>

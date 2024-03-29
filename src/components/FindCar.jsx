@@ -5,8 +5,6 @@ import { PRODUCTS } from './Product';
 
 function FindCar(){
 
-    const imgUrl ="https://www.mycarpaint.net/wp-content/uploads/proton-hatchback-gen2.jpg";
-
     return( 
         <div className='findcar-container'>
             <h2>Browse Car</h2>

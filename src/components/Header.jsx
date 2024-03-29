@@ -15,7 +15,6 @@ function Header(){
                 <p>F_inese U_nited C_ar K_ingdom</p>
             </div>
             
-
             <nav>
 
                 <ul className="nav-container">
@@ -30,6 +29,10 @@ function Header(){
 
                     <li>
                         <Link to="/Car-Dealing-Site/service" className="nav-link">Services</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/Car-Dealing-Site/faq" className="nav-link">Faq</Link>
                     </li>
 
                     <li>

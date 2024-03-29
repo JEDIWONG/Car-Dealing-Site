@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 import "../styles/Home.css"
+import { Button } from "@mui/material";
 
 function Home(){
+
+    const imgUrl = "https://wrench.com/blog/content/images/size/w2000/2021/09/cars-in-lot.jpg";
     
     return(
         <div>
+
+            
             <div className="home-container">
 
                 <div className="home-title">
@@ -36,46 +41,33 @@ function Home(){
 
                 <div className="home-intro">
 
-                    <ul className="home-intro-item">
-
-                        <h2>
-                            What we Provide ? 
-                        </h2>
-
-                        <li>
-                            Buying car
-                        </li>
-
-                        <li>
-                            Selling car
-                        </li>
-
-                        <li>
-                            Finding car
-                        </li>
-
-                        <li>
-                            Dealers Partnerships
-                        </li>
-                    </ul>
+                    <h2>
+                        What we Provide ? 
+                    </h2>
 
                     <div className="home-intro-item">
-
+                        
                         <h2>
-                            Hunting a Car ? 
+                            Hunting a Car? 
                         </h2>
 
                         <p>We have the best deal for our valued customer</p>
 
                         <Link className="nav-findcar" to={"/Car-Dealing-Site/FindCar"}>
                             <button>Take me there</button>
+                            
                         </Link>
                     </div>
-
+                    
                 </div>
 
-                
-                
+                <div className="home-intro">
+
+                    <h2>FAQ</h2>
+                    <Button variant="contained" color="primary" size="large">View</Button>
+
+                </div>
+       
             </div>
 
         </div>

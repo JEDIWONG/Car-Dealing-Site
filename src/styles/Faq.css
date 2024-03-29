@@ -1,0 +1,14 @@
+.faq-container{
+
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    align-items: center;
+}
+
+.faq-title{
+
+    margin-bottom: 100px;
+    font-size: 20px;
+    
+}

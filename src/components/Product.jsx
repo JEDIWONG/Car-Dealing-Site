@@ -27,14 +27,22 @@ export const PRODUCTS=[
     },
     {
         id: "4",
-        name : "Myvi",
+        name : "Hilux",
         year : 2002,
         price : 12000,
         stock : true,
-        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg/280px-2016_Toyota_HiLux_Invincible_D-4D_4WD_2.4_Front.jpg"
     },
     {
         id: "5",
+        name : "Vios",
+        year : 2002,
+        price : 12000,
+        stock : true,
+        imgUrl : "https://paultan.org/image/2015/01/2015-toyota-vios-updates-e1420717440659-750x431.jpg"
+    },
+    {
+        id: "6",
         name : "Myvi",
         year : 2002,
         price : 12000,
@@ -42,7 +50,23 @@ export const PRODUCTS=[
         imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
     },
     {
-        id: "6",
+        id: "7",
+        name : "Myvi",
+        year : 2002,
+        price : 12000,
+        stock : true,
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
+    },
+    {
+        id: "8",
+        name : "Myvi",
+        year : 2002,
+        price : 12000,
+        stock : true,
+        imgUrl : "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg/1024px-2013_Perodua_Myvi_1.3_SE_%28S-Series%29_in_Cyberjaya%2C_Malaysia_%2803%29.jpg"
+    },
+    {
+        id: "9",
         name : "Myvi",
         year : 2002,
         price : 12000,

@@ -1,9 +1,8 @@
 .home-container{
     display:flex;
     flex-direction: column;
-    margin: 50px;
-}
 
+}
 
 .home-title h1{
     font-size: 30px;
@@ -20,6 +19,7 @@
     color: gold;
     margin-left: 10px;
     display: inline-block;
+    
 }
 
 .home-title{
@@ -32,6 +32,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    
 }
 
 .home-title p{
@@ -47,12 +48,14 @@
 }
 
 .home-intro{
-    position: relative;
-    top: 100px;
-    left: 100px;
-    padding: 20px;
-    width: fit-content;
+    padding: 100px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px;
+    border-radius: 10px;
+    margin: 0px;
+    margin-top:  50px;
+    
 }
 
 .home-intro-item{
