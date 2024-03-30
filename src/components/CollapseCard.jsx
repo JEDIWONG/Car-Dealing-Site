@@ -14,12 +14,12 @@ function CollapseCard(props){
 
     return ( 
         <div>
-            <Card sx={{width: 800, border: "1px solid rgba(211,211,211,0.6)"}}>
+            <Card onClick={() => setOpen(!open)} sx={{width: 800, border: "1px solid rgba(211,211,211,0.6)"}}>
                 
                 <CardHeader title= {props.title} titleTypographyProps={{variant:'h7',fontWeight:"bold",fontFamily:"verdana"}}
                 action={ 
                     <IconButton 
-                        onClick={() => setOpen(!open)} 
+                        
                         aria-label="expand"
                         size="small"
                     > 
@@ -32,21 +32,18 @@ function CollapseCard(props){
                 ></CardHeader>
 
                 <div>
-                    <Collapse in={open} timeout="auto" unmountOnExit> 
+                    <Collapse in={open} timeout="auto" sx={{height:100}} unmountOnExit> 
                             <CardContent> 
                                 <Container sx={{  
-                                    
-                                    
-                                    height: 30,  
-                                    lineHeight: 0
+                                    height: "fit-content",  
+                                    lineHeight: "fit-content"
                                 }}> 
-                                <div style={{fontSize:19,color:"grey", alignItems:"left", width:""}}>
+                                <div style={{fontSize:19,color:"grey", textAlign:"top"}}>
                                     {props.desc}
-                                </div>
+                                </div> 
                                 </Container> 
                             </CardContent> 
                     </Collapse>
-
                 </div>   
             </Card>
         </div>

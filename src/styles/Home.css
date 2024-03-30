@@ -1,17 +1,28 @@
+.link{
+    text-decoration: none;
+}
+
 .home-container{
     display:flex;
     flex-direction: column;
+    
+}
 
+.home-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
 }
 
 .home-title h1{
     font-size: 30px;
     background-color: black;
     color: rgb(243, 242, 242);
-    box-shadow: 0px 3px 5px black;
+    box-shadow: 0px 20px 50px black;
     padding: 10px;
     width: fit-content;
-    
+    text-align: center;
 }
 
 
@@ -22,21 +33,8 @@
     
 }
 
-.home-title{
-    margin: 50px;
-    box-shadow: 0px 0px 10px;
-    padding:10px;
-    width: 900px;
-    text-align: center;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-
-.home-title p{
-
+.home-title p1{
+    color: black;
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
@@ -52,30 +50,24 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 0px 3px;
-    border-radius: 10px;
-    margin: 0px;
-    margin-top:  50px;
+    border-radius: 3px;
+    margin-top:  1px;
     
 }
 
 .home-intro-item{
+    display: flex;
+    flex-direction: column;
     box-shadow: 0px 0px 3px;
     padding: 20px;
     width: fit-content;
     border-radius: 10px;
-}
-
-.home-intro-item li{
-
     margin: 10px;
-    font-weight: bold;
-    color: blue;
 }
 
 .home-intro-item p{
-    margin: 10px;
-    font-weight: bold;
-    color: rgb(255, 0, 0);
+    margin: 5px;
+    color: grey;
 }
 
 .home-intro-item button{
@@ -86,6 +78,7 @@
     padding: 10px;
     color: rgb(254, 255, 255);
     font-weight: bold;
+    width: fit-content;
 }
 
 .home-intro-item button:hover{
@@ -96,7 +89,6 @@
 .nav-findcar{
     text-decoration: none;
 }
-
 
 
 

@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 function Footer(){
 
@@ -16,10 +16,17 @@ function Footer(){
 
             <ul className="footer-nav">
                 
-                <li>About Us</li>
-                <li>Our Contact</li>
-                <li>FAQ</li>
-                <li>Help</li>
+                <li>
+                    <Link to="/Car-Dealing-Site/about" className="nav-link">About</Link>
+                </li>
+
+                <li>
+                    <Link to="/Car-Dealing-Site/contact" className="nav-link">Contact Us</Link>
+                </li>
+                <li>
+                    <Link to="/Car-Dealing-Site/faq" className="nav-link">FAQ</Link>
+                </li>
+
             </ul>
         </div>
     );

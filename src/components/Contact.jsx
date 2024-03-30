@@ -1,4 +1,6 @@
+import { Button } from '@mui/material';
 import '../styles/Contact.css';
+import { Link } from 'react-router-dom';
 
 function Contact(){
 
@@ -39,7 +41,10 @@ function Contact(){
                 <div className='contact-card' style={{display:"block",width:"600px"}}>
                     <h2>Need Quick Answer ?</h2>
                     <p><b>Lets visit our FAQ page here</b></p>
-                    <button>Go To FAQ</button>
+                    
+                    <Link to="/Car-Dealing-Site/faq">
+                        <Button variant='contained' size='large'>Visit FAQ</Button>
+                    </Link>
                 </div>
             </div>
         

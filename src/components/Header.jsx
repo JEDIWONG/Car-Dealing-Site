@@ -32,7 +32,7 @@ function Header(){
                     </li>
 
                     <li>
-                        <Link to="/Car-Dealing-Site/faq" className="nav-link">Faq</Link>
+                        <Link to="/Car-Dealing-Site/faq" className="nav-link">FAQ</Link>
                     </li>
 
                     <li>
@@ -47,11 +47,13 @@ function Header(){
      
             </nav>
 
-            <div className="menu-login">
-                <img src={imgUrl}></img>
-                <Link to="/Car-Dealing-Site/login" className="nav-link">Login/Sign Up</Link>
-            </div>
-            
+            <Link to="/Car-Dealing-Site/login" className="nav-link">
+                <div className="menu-login">
+                    <img src={imgUrl}></img>
+                    Login/Sign Up
+                </div>      
+            </Link>
+
         </div>
         <Outlet/>
         </>
