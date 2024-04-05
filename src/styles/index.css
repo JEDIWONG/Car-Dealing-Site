@@ -135,5 +135,17 @@ button:hover{
     .menu-login{
         margin-left: 100px;
     }
+
+    body{
+        font-size: smaller;
+    }
+
+    .footer-container{
+        position: relative;
+        
+        bottom: 0;
+        
+    }
+    
     
 }

@@ -70,25 +70,28 @@
     color: grey;
 }
 
-.home-intro-item button{
-    display: block;
-    margin: 10px;
-    background-color: rgb(0, 0, 0);
-    border-radius: 10px;
-    padding: 10px;
-    color: rgb(254, 255, 255);
-    font-weight: bold;
-    width: fit-content;
-}
+.home-intro-item Button{
 
-.home-intro-item button:hover{
-    background-color: rgb(185, 189, 189);
-    color: aliceblue;
+    margin: 20px;
+    align-self: center;
 }
 
 .nav-findcar{
     text-decoration: none;
 }
 
+
+@media screen and (min-width:0px) and (max-width:1000px) {
+
+    .home-title{
+        font-size: small;
+    }
+
+    .home-title p1{
+        font-size: small;
+        
+    }
+
+}
 
 

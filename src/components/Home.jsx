@@ -4,8 +4,6 @@ import { Button, Card } from "@mui/material";
 import CollapseCard from "./CollapseCard";
 
 function Home(){
-
-    const imgUrl = "https://wrench.com/blog/content/images/size/w2000/2021/09/cars-in-lot.jpg";
     
     return(
         <div>
@@ -48,16 +46,19 @@ function Home(){
 
                     <div style={{display:"flex", flexDirection:"row"}}>
 
-                        <div className="home-intro-item">
+                        <div className="home-intro-item" >
                             
                             <h2>
                                 Buy Car
                             </h2>
 
-                            
+                            <img src="https://blog-cdn.el.olx.com.pk/wp-content/uploads/2022/05/16120036/Untitled-2.jpg"
+                                 style={{width:400,height:200}}
+                            ></img>
+
 
                             <Link className="nav-findcar" to={"/Car-Dealing-Site/FindCar"}>
-                                <button>View All Car</button>
+                                <Button variant="contained" color="primary">View All Car</Button>
                             </Link>
                         </div>
 
@@ -67,8 +68,12 @@ function Home(){
                                 Sell Car 
                             </h2>
 
+                            <img src="https://images.ctfassets.net/2sam6k0rncvg/zgmugJP3uQbNE8hWuV2cv/373e5dcae7e03404a7e56ccf1b3d3a77/how-to-sell-a-used-car-in-india.png?fm=webp&w=1200&q=75"
+                                 style={{width:400,height:200}}
+                            ></img>
+
                             <Link className="nav-findcar" to={"/Car-Dealing-Site/FindCar"}>
-                                <button>Take me there</button>
+                                <Button variant="contained" color="primary">Sell Car</Button>
                             </Link>
                         </div>
 
